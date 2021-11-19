@@ -41,7 +41,7 @@ const rooms = [
 ];
 //common call api status
 app.get("/", (req, res) => {
-  res.status(200).send("Server is running successfully ");
+  res.status(200).send("Server is running SSuccessfully ");
 });
 
 //create room
